@@ -1,5 +1,6 @@
 import { createApp } from 'vue';
 import './serviceWorker/registerServiceWorker';
+import './assets/styl/reset.styl';
 import router from './router';
 import store from './store';
 import App from './views/app.vue';
